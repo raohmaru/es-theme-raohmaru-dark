@@ -33,7 +33,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/fba.svg</path>
+			<path>./_inc/fba_inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.45 0.1</maxSize>
 			<origin>0 0.5</origin>

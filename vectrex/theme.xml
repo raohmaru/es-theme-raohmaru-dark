@@ -44,7 +44,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/vectrex.svg</path>
+			<path>./_inc/vectrex_inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.47 0.115</maxSize>
 			<origin>0 0.5</origin>

@@ -44,7 +44,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/saturn_long.svg</path>
+			<path>./_inc/saturn_long_inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.45 0.12</maxSize>
 			<origin>0 0.5</origin>

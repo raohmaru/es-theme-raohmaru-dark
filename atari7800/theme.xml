@@ -44,7 +44,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/a7800.svg</path>
+			<path>./_inc/a7800_inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.6 0.1</maxSize>
 			<origin>0 0.5</origin>

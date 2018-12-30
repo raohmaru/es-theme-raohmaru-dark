@@ -33,7 +33,7 @@
 		</text>
 		
 		<image name="logo">
-			<path>./_inc/nds.svg</path>
+			<path>./_inc/nds_inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.55 0.08</maxSize>
 			<origin>0 0.5</origin>
