@@ -2,7 +2,7 @@
     <formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
 	<include>./../_inc/templates/layout.xml</include>
-
+	
 	<view name="system">
 
 		<image name="background" extra="true">

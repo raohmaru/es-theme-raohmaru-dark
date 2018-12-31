@@ -3,15 +3,4 @@
 	<include>./../theme.xml</include>
 	<include>./../_inc/templates/layout.xml</include>
 
-	<view name="system">
-		<image name="background" extra="true">
-			<path>./_inc/art.jpg</path>
-		</image>
-
-		<image name="logo">
-			<path>./_inc/system.svg</path>
-        </image>
-	</view>
-
-
 </theme>
