@@ -1,5 +1,5 @@
 <theme>
-    <formatVersion>3</formatVersion>
+    <formatVersion>4</formatVersion>
 	<include>./../theme.xml</include>
 	<include>./../_inc/templates/layout.xml</include>
 

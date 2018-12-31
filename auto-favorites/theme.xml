@@ -1,21 +1,17 @@
 <theme>
-    <formatVersion>3</formatVersion>
-    <include>./../simple.xml</include>
+    <formatVersion>4</formatVersion>
+    <include>./../theme.xml</include>
+	<include>./../_inc/templates/layout.xml</include>
 
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./_inc/favorites-bg.jpg</path>
+			<path>./_inc/auto-favorites-bg.jpg</path>
 		</image>
 
 		<image name="logo">
-			<path>./_inc/favorites-logo.png</path>
+			<path>./_inc/auto-favorites.svg</path>
         </image>
-
-		<helpsystem name="help">
-			<textColor>ffffff88</textColor>
-			<iconColor>ffffff88</iconColor>
-		</helpsystem>
 
 	</view>
 
@@ -44,7 +40,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/favorites-logo.png</path>
+			<path>./_inc/auto-favorites.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.45 0.1</maxSize>
 			<origin>0 0.5</origin>
