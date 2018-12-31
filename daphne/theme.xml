@@ -27,7 +27,7 @@
 			<size>0.45 0.16</size>
 			<pos>0.527 0</pos>
 			<color>7b7d7f</color>
-			<fontPath>./../_inc/OPENSANS-LIGHT.TTF</fontPath>
+			<fontPath>./../_inc/fonts/OPENSANS-LIGHT.TTF</fontPath>
 			<fontSize>0.055</fontSize>
 			<alignment>right</alignment>
 		</text>
@@ -59,7 +59,7 @@
 			<pos>0.025 0.6</pos>
 			<origin>0 0</origin>
 			<size>0.125 0.301</size>
-			<path>./../_inc/white.png</path>
+			<path>./../_inc/images/white.png</path>
 			<color>ff00ff</color>
 		</image> 
 -->
@@ -139,8 +139,8 @@
 		<rating name="md_rating">
 			<pos>0.309 0.216</pos>
 			<size>0.028 0.028</size>
-			<filledPath>./../_inc/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./../_inc/star_hollow_3_spacing.svg</unfilledPath>
+			<filledPath>./../_inc/images/star_filled_spacing.svg</filledPath>
+			<unfilledPath>./../_inc/images/star_hollow_3_spacing.svg</unfilledPath>
 		</rating>
 		
 		<text name="md_description">

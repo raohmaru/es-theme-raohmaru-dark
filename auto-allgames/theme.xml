@@ -5,11 +5,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./art/all_games_bg.jpg</path>
+			<path>./_inc/all_games_bg.jpg</path>
 		</image>
 
 		<image name="logo">
-			<path>./art/all_games_logo.png</path>
+			<path>./_inc/all_games_logo.png</path>
         </image>
 
 		<helpsystem name="help">
@@ -27,7 +27,7 @@
 			<size>0.45 0.08</size>
 			<pos>0.527 0.01</pos>
 			<color>7b7d7f</color>
-			<fontPath>./../art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontPath>./../_inc/fonts/OPENSANS-LIGHT.TTF</fontPath>
 			<fontSize>0.055</fontSize>
 			<alignment>right</alignment>
 		</text>
@@ -38,13 +38,13 @@
 			<size>0.45 0.08</size>
 			<pos>0.527 0.07</pos>
 			<color>7b7d7f</color>
-			<fontPath>./../art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontPath>./../_inc/fonts/OPENSANS-LIGHT.TTF</fontPath>
 			<fontSize>0.055</fontSize>
 			<alignment>right</alignment>
 		</text>
 
 		<image name="logo">
-			<path>./art/all_games_logo.png</path>
+			<path>./_inc/all_games_logo.png</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.45 0.1</maxSize>
 			<origin>0 0.5</origin>
@@ -70,7 +70,7 @@
 			<pos>0.025 0.6</pos>
 			<origin>0 0</origin>
 			<size>0.125 0.301</size>
-			<path>./../art/white.png</path>
+			<path>./../_inc/images/white.png</path>
 			<color>ff00ff</color>
 		</image>
 -->
@@ -150,8 +150,8 @@
 		<rating name="md_rating">
 			<pos>0.31 0.216</pos>
 			<size>0.028 0.028</size>
-			<filledPath>./../art/star_filled_spacing.svg</filledPath>
-			<unfilledPath>./../art/star_hollow_3_spacing.svg</unfilledPath>
+			<filledPath>./../_inc/images/star_filled_spacing.svg</filledPath>
+			<unfilledPath>./../_inc/images/star_hollow_3_spacing.svg</unfilledPath>
 		</rating>
 
 		<text name="md_description">
