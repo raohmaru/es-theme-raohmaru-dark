@@ -4,7 +4,6 @@
 	<include>./../_inc/templates/layout.xml</include>
 
 	<view name="system">
-
 		<image name="background" extra="true">
 			<path>./_inc/art-2.jpg</path>
 		</image>
@@ -12,12 +11,32 @@
 		<image name="logo">
 			<path>./_inc/system.svg</path>
         </image>
-		
 	</view>
 
+	<view name="detailed, video">	
+		<image name="md_image">
+			<pos>0.678 0.410</pos>
+			<maxSize>0.346 0.416</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<pos>2 0</pos>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
+			<pos>2 0</pos>
+		</text>
+		
+		<text name="md_description">
+			<fontSize>0.030</fontSize>
+			<lineSpacing>1.4</lineSpacing>
+		</text>
+	</view>
+	
 	<view name="basic, detailed, video">
 		<image name="logo">
-			<path>./_inc/system.png</path>
+			<path>./_inc/system.svg</path>
 			<pos>0.5 0.079</pos>
 			<maxSize>0.45 0.1</maxSize>
 			<origin>0.5 0.5</origin>
@@ -27,5 +46,4 @@
 			<text></text>
 		</text>
 	</view>
-
 </theme>

@@ -7,17 +7,19 @@ Based on the following themes:
 
 ## Installation
 1. Close EmulationStation.
-2. Create folder `~/.emulationstation/themes` if it does not exist.
+2. Create folder `/etc/emulationstation/themes` if it does not exist.
 3. Run in a terminal:
 ```
-cd ~/.emulationstation/themes
+cd /etc/emulationstation/themes
 git clone git@github.com:raohmaru/es-theme-raohmaru-dark.git
 ```
+
+**Windows users note:** In Windows OS the location of the themes folder is at `%HOMEPATH%\.emulationstation\themes`.
 
 ### Update
 In order to update your installed theme (if you installed with above instructions), open a terminal and run:
 ```
-cd ~/.emulationstation/themes/es-theme-raohmaru-dark
+cd /etc/emulationstation/themes/es-theme-raohmaru-dark
 git pull
 ```
 
