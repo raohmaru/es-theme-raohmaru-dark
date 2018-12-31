@@ -6,11 +6,11 @@
 	<view name="system">
 
 		<image name="background" extra="true">
-			<path>./_inc/auto-lastplayed-bg.jpg</path>
+			<path>./_inc/art.jpg</path>
 		</image>
 
 		<image name="logo">
-			<path>./_inc/auto-lastplayed.svg</path>
+			<path>./_inc/system.svg</path>
         </image>
 
 	</view>
@@ -40,7 +40,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/auto-lastplayed.svg</path>
+			<path>./_inc/system.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.45 0.1</maxSize>
 			<origin>0 0.5</origin>

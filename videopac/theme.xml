@@ -6,17 +6,14 @@
 	<view name="system">
 		
 		<image name="background" extra="true">
-			<path>./_inc/videopac_art_blur.jpg</path>
+			<path>./_inc/art.jpg</path>
 		</image>
 		
 		<image name="logo">
-			<path>./_inc/videopac.svg</path>
+			<path>./_inc/system.svg</path>
         </image>
 		
-		<helpsystem name="help">
-			<textColor>ffffff88</textColor>
-			<iconColor>ffffff88</iconColor>
-		</helpsystem>
+
 		
 	</view>
 
@@ -34,7 +31,7 @@
 		</text>
 
 		<image name="logo">
-			<path>./_inc/videopac_inverted.svg</path>
+			<path>./_inc/system-inverted.svg</path>
 			<pos>0.025 0.079</pos>
 			<maxSize>0.47 0.1</maxSize>
 			<origin>0 0.5</origin>
