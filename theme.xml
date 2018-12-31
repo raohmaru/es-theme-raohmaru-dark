@@ -7,10 +7,9 @@ license:		creative commons CC-BY-NC-SA
 -->
 <theme>
 	<formatVersion>4</formatVersion>
-	<include>./_inc/templates/layout.xml</include>
 	<view name="system">
 		<image name="background" extra="true">
-			<path>./_inc/art.jpg</path>
+			<path>./_inc/images/logosbg.jpg</path>
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
