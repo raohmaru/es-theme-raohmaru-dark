@@ -3,8 +3,8 @@
 	<variables>
 		<mediaPos>0.578 0.410</mediaPos>
 		<mediaMaxSize>0.346 0.416</mediaMaxSize>
-		<labelsPosX>0.760</labelsPosX>
-		<valuesPosX>0.853</valuesPosX>
+		<labelsPosX>0.765</labelsPosX>
+		<valuesPosX>0.843</valuesPosX>
 	</variables>
 	
 	<view name="basic">
@@ -87,17 +87,14 @@
 		
 		<text name="md_genre">
 			<pos>${valuesPosX} 0.37</pos>
-			<size>0.24 0.04</size>
 		</text>
 
 		<text name="md_publisher">
 			<pos>${valuesPosX} 0.33</pos>
-			<size>0.24 0.04</size>
 		</text>
 		
 		<text name="md_developer">
 			<pos>${valuesPosX} 0.29</pos>
-			<size>0.24 0.04</size>
 		</text>
 		
 		<datetime name="md_releasedate">
@@ -112,13 +109,13 @@
 		</rating>
 		
 		<text name="md_description">
-			<size>0.56 0.260</size>
-			<pos>0.405 0.650</pos>
+			<size>0.56 0.245</size>
+			<pos>0.405 0.660</pos>
 		</text>
 		
 		<textlist name="gamelist">
-			<pos>0.021 0.22</pos>
-			<size>0.359 0.68</size>
+			<pos>0.021 0.2</pos>
+			<size>0.359 0.70</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>
@@ -138,9 +135,16 @@
 			<size>0.45 0.08</size>
 			<pos>0.527 0.01</pos>
 			<color>7b7d7f</color>
-			<fontPath>./../fonts/OPENSANS-LIGHT.TTF</fontPath>
 			<fontSize>0.025</fontSize>
 			<alignment>right</alignment>
 		</text>
+		
+		<image name="controller" extra="true">
+			<path>./../../${system.name}/_inc/controller.svg</path>
+			<pos>0.040 0.080</pos>
+			<maxSize>0.460 0.126</maxSize>
+			<origin>0 0.5</origin>
+			<color>bbbbbb</color>
+		</image>
 	</view>
 </theme>

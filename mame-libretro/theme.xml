@@ -10,22 +10,13 @@
 		</image>
 
 		<image name="logo">
-			<path>./_inc/system.png</path>
+			<path>./_inc/system.svg</path>
         </image>
+		
+
 		
 	</view>
 
-	<view name="basic, detailed, video">
-		<image name="logo">
-			<path>./_inc/system.png</path>
-			<pos>0.5 0.079</pos>
-			<maxSize>0.45 0.1</maxSize>
-			<origin>0.5 0.5</origin>
-		</image>
 
-		<text name="system_name_1" extra="true">
-			<text></text>
-		</text>
-	</view>
 
 </theme>

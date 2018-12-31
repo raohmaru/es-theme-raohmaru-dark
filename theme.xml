@@ -16,26 +16,60 @@ license:		creative commons CC-BY-NC-SA
 			<origin>0.5 0.5</origin>
 		</image>
 		
+		<!-- <image name="chevronUp" extra="true">
+			<path>./_inc/images/chevron-up.svg</path>
+			<size>0.05 0</size>
+			<pos>0.5 0.35</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFF99</color>
+		</image>
+		
+		<image name="chevronDown" extra="true">
+			<path>./_inc/images/chevron-down.svg</path>
+			<size>0.05 0</size>
+			<pos>0.5 0.65</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFF99</color>
+		</image> -->
+		
+		<image name="arrowUp" extra="true">
+			<path>./_inc/images/arrow-up.svg</path>
+			<size>0.04 0</size>
+			<pos>0.5 0.35</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFaa</color>
+		</image>
+		
+		<image name="arrowDown" extra="true">
+			<path>./_inc/images/arrow-down.svg</path>
+			<size>0.04 0</size>
+			<pos>0.5 0.65</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFaa</color>
+		</image>
+		
 		<helpsystem name="help">
 			<textColor>999999ff</textColor>
 			<iconColor>ffffff88</iconColor>
 		</helpsystem>
 		
 		<carousel name="systemcarousel">
+			<color>FFFFFFbb</color>
+		
 			<!-- Horizontal wheel -->
-			<!-- <type>horizontal_wheel</type>
+			<type>vertical_wheel</type>
 			<maxLogoCount>5</maxLogoCount>
-			<logoSize>0.25 0.135</logoSize>
-			<logoScale>1.3</logoScale>
-			<logoRotation>7.5</logoRotation> -->
-			
-			<!-- Horizontal -->
-			<type>horizontal</type>
-			<maxLogoCount>2</maxLogoCount>
 			<logoSize>0.35 0.145</logoSize>
 			<logoScale>1</logoScale>
-			<pos>-0.20 0.38375</pos>
-			<size>1.4 0.18</size>
+			<logoRotation>7.5</logoRotation>
+			
+			<!-- Horizontal -->
+			<!-- <type>horizontal</type> -->
+			<!-- <maxLogoCount>2</maxLogoCount> -->
+			<!-- <logoSize>0.35 0.145</logoSize> -->
+			<!-- <logoScale>1</logoScale> -->
+			<!-- <pos>-0.20 0.38375</pos> -->
+			<!-- <size>1.4 0.18</size> -->
 		</carousel>
 		
 		<text name="systemInfo">
@@ -66,34 +100,45 @@ license:		creative commons CC-BY-NC-SA
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
 			<color>d8d8d8</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontPath>./_inc/fonts/Exo/Exo-Light.ttf</fontPath>
+			<fontSize>0.020</fontSize>
 			<size>0.12 0.04</size>
 		</text>
 		
 		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount">
 			<color>ebebeb</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Medium.ttf</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontPath>./_inc/fonts/Exo/Exo-Medium.ttf</fontPath>
+			<fontSize>0.020</fontSize>
 			<size>0.14 0.04</size>
 		</text>
 		
 		<text name="md_description">
 			<color>d8d8d8</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
-			<fontSize>0.024</fontSize>
-			<lineSpacing>1.3</lineSpacing>
+			<fontPath>./_inc/fonts/Exo/Exo-Light.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<lineSpacing>1.4</lineSpacing>
 		</text>
 		
 		<datetime name="md_releasedate, md_lastplayed">
 			<color>d8d8d8</color>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
-			<fontSize>0.024</fontSize>
+			<fontPath>./_inc/fonts/Exo/Exo-Medium.ttf</fontPath>
+			<fontSize>0.020</fontSize>
 			<size>0 0.04</size>
 		</datetime>
+		
+		<textlist name="gamelist">
+			<selectorColor>151515</selectorColor>
+			<selectedColor>0098a6</selectedColor>
+			<primaryColor>ebebeb</primaryColor>
+			<secondaryColor>ffe599</secondaryColor>
+			<fontPath>./_inc/fonts/Changa/Changa-Regular.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>0</forceUppercase>
+			<scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+		</textlist>
 		
 		<image name="header" extra="true">
 			<pos>0 0</pos>
@@ -105,32 +150,21 @@ license:		creative commons CC-BY-NC-SA
 		<image name="footer" extra="true">
 			<pos>0 1</pos>
 			<origin>0 1</origin>
-			<size>1 0.065</size>
+			<size>1 0.06</size>
 			<path>./_inc/images/darkest.png</path>
 		</image>
+		
 		<!-- <image name="background">
 			<pos>0 0</pos>
 			<origin>0 0</origin>
 			<size>1 1</size>
 			<path>./_inc/images/black.png</path>
-		</image> -->
-		
+		</image> -->		
 		<image name="background">
 			<path>./_inc/images/logosbg-dark.jpg</path>
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 		</image>
-		
-		<textlist name="gamelist">
-			<selectorColor>151515</selectorColor>
-			<selectedColor>0098a6</selectedColor>
-			<primaryColor>ebebeb</primaryColor>
-			<secondaryColor>ffe599</secondaryColor>
-			<fontPath>./_inc/fonts/Roboto-Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
-			<forceUppercase>0</forceUppercase>
-			<scrollSound>./_inc/sounds/scroll.wav</scrollSound>
-		</textlist>
 	</view>
 </theme>

@@ -1,7 +1,9 @@
 # Raoharu Dark Theme for EmulationStation
 A [EmulationStation](https://github.com/Aloshi/EmulationStation) theme optimized for Raspberry Pi.
 
-Based on theme [tronkyfan dark optimized](https://github.com/HerbFargus/es-theme-tronkyfran/tree/dark-optimized).
+Based on the following themes:
+- [Tronkyfan dark optimized](https://github.com/HerbFargus/es-theme-tronkyfran/tree/dark-optimized)
+- [Carbon](https://github.com/RetroPie/es-theme-carbon)
 
 ## Installation
 1. Close EmulationStation.
