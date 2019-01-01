@@ -31,7 +31,7 @@
 			<pos>2 0</pos>
 		</text>
 		
-		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
+		<text name="md_name, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
 			<pos>2 0</pos>
 		</text>
 		
@@ -39,6 +39,10 @@
 			<fontSize>0.025</fontSize>
 			<lineSpacing>1.4</lineSpacing>
 		</text>
+		
+		<image name="metadata" extra="true">
+			<path></path>
+		</image>
 	</view>
 	
 	<view name="basic, detailed, video, grid">

@@ -54,6 +54,7 @@ license:		creative commons CC-BY-NC-SA
 		</image>
 		
 		<helpsystem name="help">
+			<fontSize>0.03</fontSize>
 			<textColor>999999ff</textColor>
 			<iconColor>ffffff88</iconColor>
 		</helpsystem>
@@ -101,6 +102,38 @@ license:		creative commons CC-BY-NC-SA
 		</view>
 	</feature>
 	
+	<view name="grid">
+		<image name="metadata" extra="true">
+			<pos>0.642 0.251</pos>
+			<origin>0 0</origin>
+			<size>0 0</size>
+			<path>./_inc/images/metadata-grid.png</path>
+		</image>
+		
+		<image name="description" extra="true">
+			<pos>0.642 0.580</pos>
+			<origin>0 0</origin>
+			<size>0 0</size>
+			<path>./_inc/images/description.png</path>
+		</image>
+	</view>
+	
+	<view name="detailed, video">
+		<image name="metadata" extra="true">
+			<pos>0.757 0.251</pos>
+			<origin>0 0</origin>
+			<size>0 0</size>
+			<path>./_inc/images/metadata.png</path>
+		</image>
+		
+		<image name="description" extra="true">
+			<pos>0.405 0.639</pos>
+			<origin>0 0</origin>
+			<size>0 0</size>
+			<path>./_inc/images/description.png</path>
+		</image>
+	</view>
+	
 	<view name="basic, detailed, video, grid">
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
 			<color>d8d8d8</color>
@@ -138,13 +171,13 @@ license:		creative commons CC-BY-NC-SA
 			<color>FFFFFF</color>
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./_inc/fonts/Changa/Changa-Regular.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.04</fontSize>
 			<alignment>left</alignment>
 		</text>
 		
 		<textlist name="gamelist">
-			<selectorColor>151515</selectorColor>
-			<selectedColor>0098a6</selectedColor>
+			<selectorColor>ffffffbb</selectorColor>
+			<selectedColor>ff8000</selectedColor>
 			<primaryColor>ebebeb</primaryColor>
 			<secondaryColor>ffe599</secondaryColor>
 			<fontPath>./_inc/fonts/Changa/Changa-Regular.ttf</fontPath>
@@ -152,32 +185,30 @@ license:		creative commons CC-BY-NC-SA
 			<forceUppercase>0</forceUppercase>
 			<scrollSound>./_inc/sounds/scroll.wav</scrollSound>
 		</textlist>
-		
-		<image name="header" extra="true">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 0.16</size>
-			<path>./_inc/images/darkest.png</path>
-		</image>
-		
-		<image name="footer" extra="true">
-			<pos>0 1</pos>
-			<origin>0 1</origin>
-			<size>1 0.06</size>
-			<path>./_inc/images/darkest.png</path>
-		</image>
-		
-		<!-- <image name="background">
-			<pos>0 0</pos>
-			<origin>0 0</origin>
-			<size>1 1</size>
-			<path>./_inc/images/black.png</path>
-		</image> -->		
+				
 		<image name="background">
 			<path>./_inc/images/logosbg-dark.jpg</path>
 			<size>0 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 		</image>
+		
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0</size>
+			<path>./_inc/images/header.png</path>
+		</image>
+		
+		<image name="footer" extra="true">
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<size>1 0</size>
+			<path>./_inc/images/footer.png</path>
+		</image>
+		
+		<helpsystem name="help">
+			<fontSize>0.03</fontSize>
+		</helpsystem>
 	</view>
 </theme>
