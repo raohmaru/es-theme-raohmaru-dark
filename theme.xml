@@ -88,20 +88,6 @@ license:		creative commons CC-BY-NC-SA
 		</text>
 	</view>
 	
-	<feature supported="video">
-		<view name="video">
-			<video name="md_video">
-				<pos>0.02 0.22</pos>
-				<maxSize>0.290 0.352</maxSize>
-				<origin>0 0</origin>
-				<delay>0.2</delay>
-				<default />
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>false</showSnapshotDelay>
-			</video>
-		</view>
-	</feature>
-	
 	<view name="grid">
 		<image name="metadata" extra="true">
 			<pos>0.642 0.251</pos>
@@ -122,14 +108,14 @@ license:		creative commons CC-BY-NC-SA
 		<image name="metadata" extra="true">
 			<pos>0.757 0.251</pos>
 			<origin>0 0</origin>
-			<size>0 0</size>
+			<size>0.235 0</size>
 			<path>./_inc/images/metadata.png</path>
 		</image>
 		
 		<image name="description" extra="true">
 			<pos>0.405 0.639</pos>
 			<origin>0 0</origin>
-			<size>0 0</size>
+			<size>0.570 0</size>
 			<path>./_inc/images/description.png</path>
 		</image>
 	</view>
