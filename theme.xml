@@ -92,14 +92,14 @@ license:		creative commons CC-BY-NC-SA
 		<image name="metadata" extra="true">
 			<pos>0.642 0.251</pos>
 			<origin>0 0</origin>
-			<size>0 0</size>
+			<size>0.359 0.280</size>
 			<path>./_inc/images/metadata-grid.png</path>
 		</image>
 		
 		<image name="description" extra="true">
 			<pos>0.642 0.580</pos>
 			<origin>0 0</origin>
-			<size>0 0</size>
+			<size>0.358 0.283</size>
 			<path>./_inc/images/description.png</path>
 		</image>
 	</view>
@@ -108,7 +108,7 @@ license:		creative commons CC-BY-NC-SA
 		<image name="metadata" extra="true">
 			<pos>0.757 0.251</pos>
 			<origin>0 0</origin>
-			<size>0.235 0</size>
+			<size>0.235 0.280</size>
 			<path>./_inc/images/metadata.png</path>
 		</image>
 		
