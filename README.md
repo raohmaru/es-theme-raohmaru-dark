@@ -23,8 +23,15 @@ cd /etc/emulationstation/themes/es-theme-raohmaru-dark
 git pull
 ```
 
+## Supported Views
+Basic, Detailed, Grid.
+
 ## License
 Creative Commons. Please see [license.txt](license.txt).
 
 ### Logo Notice
 The used logos and trademarks are copyright of their respective owners.
+
+### Icons
+- Cartridge icon made by [Creaticca Creative Agency](http://www.creaticca.com/) from www.flaticon.com
+- Folder icon made by [Smashicons](http://www.Smashicons.com/) from www.flaticon.com

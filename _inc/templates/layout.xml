@@ -5,6 +5,8 @@
 		<mediaMaxSize>0.346 0.416</mediaMaxSize>
 		<labelsPosX>0.765</labelsPosX>
 		<valuesPosX>0.843</valuesPosX>
+		<gridLabelPosX>0.665</gridLabelPosX>
+		<gridValuesPosX>0.743</gridValuesPosX>
 	</variables>
 	
 	<view name="basic">
@@ -37,6 +39,109 @@
 			</video>
 		</view>
 	</feature>
+
+	<view name="grid">
+		<imagegrid name="gamegrid">
+			<pos>0.021 0.20</pos>
+			<size>.6 .7</size>
+			<margin>0 0</margin>
+			<scrollDirection>vertical</scrollDirection>
+			<gameImage>./../images/cartridge.svg</gameImage>
+			<folderImage>./../images/folder.svg</folderImage>
+		</imagegrid>
+
+		<gridtile name="default">
+			<size>0.20 0.22</size>
+			<padding>4 4</padding>
+			<!-- <imageColor>FF0000</imageColor> -->
+			<backgroundColor>00000000</backgroundColor>
+			<backgroundCornerSize>16 16</backgroundCornerSize>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.24 0.26</size>
+			<backgroundImage>./../images/grid-selector.png</backgroundImage>
+		</gridtile>	
+
+		<text name="md_name">
+			<pos>${gridLabelPosX} 0.21</pos>
+			<size>0.3 0.03</size>
+		</text>
+		
+		<text name="md_lbl_rating">
+			<pos>${gridLabelPosX} 0.25</pos>
+		</text>
+		
+		<text name="md_lbl_releasedate">
+			<pos>${gridLabelPosX} 0.29</pos>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>${gridLabelPosX} 0.33</pos>
+			<size>0.133 0.04</size>
+		</text>
+
+		<text name="md_lbl_publisher">
+			<pos>${gridLabelPosX} 0.37</pos>
+			<size>0.133 0.04</size>
+		</text>
+		
+		<text name="md_lbl_genre">
+			<pos>${gridLabelPosX} 0.41</pos>
+		</text>
+		
+		<text name="md_lbl_players">
+			<pos>${gridLabelPosX} 0.45</pos>
+		</text>
+
+		<text name="md_lbl_lastplayed">
+			<pos>${gridLabelPosX} 0.49</pos>
+		</text>
+
+		<text name="md_lbl_playcount">
+			<pos>${gridLabelPosX} 0.53</pos>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>${gridValuesPosX} 0.255</pos>
+			<size>0.03 0.03</size>
+			<filledPath>./../images/star_filled_spacing.svg</filledPath>
+			<unfilledPath>./../images/star_hollow_3_spacing.svg</unfilledPath>
+		</rating>
+		
+		<datetime name="md_releasedate">
+			<pos>${gridValuesPosX} 0.29</pos>
+		</datetime>
+		
+		<text name="md_developer">
+			<pos>${gridValuesPosX} 0.33</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>${gridValuesPosX} 0.37</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>${gridValuesPosX} 0.41</pos>
+		</text>
+		
+		<text name="md_players">
+			<pos>${gridValuesPosX} 0.45</pos>
+		</text>
+
+		<datetime name="md_lastplayed">
+			<pos>${gridValuesPosX} 0.49</pos>
+		</datetime>
+		
+		<text name="md_playcount">
+			<pos>${gridValuesPosX} 0.53</pos>
+		</text>
+		
+		<text name="md_description">
+			<size>0.30 0.245</size>
+			<pos>${gridLabelPosX} 0.60</pos>
+		</text>
+	</view>
 	
 	<view name="detailed, video">
 		<text name="md_lbl_rating">
@@ -73,40 +178,40 @@
 			<pos>${labelsPosX} 0.49</pos>
 		</text>
 		
-		<text name="md_playcount">
-			<pos>${valuesPosX} 0.49</pos>
-		</text>
-
-		<datetime name="md_lastplayed">
-			<pos>${valuesPosX} 0.45</pos>
-		</datetime>
-		
-		<text name="md_players">
-			<pos>${valuesPosX} 0.41</pos>
-		</text>
-		
-		<text name="md_genre">
-			<pos>${valuesPosX} 0.37</pos>
-		</text>
-
-		<text name="md_publisher">
-			<pos>${valuesPosX} 0.33</pos>
-		</text>
-		
-		<text name="md_developer">
-			<pos>${valuesPosX} 0.29</pos>
-		</text>
-		
-		<datetime name="md_releasedate">
-			<pos>${valuesPosX} 0.25</pos>
-		</datetime>
-		
 		<rating name="md_rating">
 			<pos>${valuesPosX} 0.215</pos>
 			<size>0.03 0.03</size>
 			<filledPath>./../images/star_filled_spacing.svg</filledPath>
 			<unfilledPath>./../images/star_hollow_3_spacing.svg</unfilledPath>
 		</rating>
+		
+		<datetime name="md_releasedate">
+			<pos>${valuesPosX} 0.25</pos>
+		</datetime>
+		
+		<text name="md_developer">
+			<pos>${valuesPosX} 0.29</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>${valuesPosX} 0.33</pos>
+		</text>
+		
+		<text name="md_genre">
+			<pos>${valuesPosX} 0.37</pos>
+		</text>
+		
+		<text name="md_players">
+			<pos>${valuesPosX} 0.41</pos>
+		</text>
+		
+		<datetime name="md_lastplayed">
+			<pos>${valuesPosX} 0.45</pos>
+		</datetime>
+		
+		<text name="md_playcount">
+			<pos>${valuesPosX} 0.49</pos>
+		</text>
 		
 		<text name="md_description">
 			<size>0.56 0.245</size>
@@ -120,8 +225,8 @@
 			<horizontalMargin>0.01</horizontalMargin>
 		</textlist>
 	</view>
-
-	<view name="basic, detailed, video">
+	
+	<view name="basic, detailed, video, grid">
 		<image name="logo">
 			<path>./../../${system.name}/_inc/system-inverted.svg</path>
 			<pos>0.5 0.079</pos>

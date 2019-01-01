@@ -13,7 +13,14 @@
         </image>
 	</view>
 
-	<view name="detailed, video">	
+	<view name="grid">		
+		<text name="md_description">
+			<pos>0.665 0.31</pos>
+			<size>0.30 0.50</size>
+		</text>
+	</view>
+
+	<view name="detailed, video, grid">	
 		<image name="md_image">
 			<pos>0.678 0.410</pos>
 			<maxSize>0.346 0.416</maxSize>
@@ -29,12 +36,12 @@
 		</text>
 		
 		<text name="md_description">
-			<fontSize>0.030</fontSize>
+			<fontSize>0.025</fontSize>
 			<lineSpacing>1.4</lineSpacing>
 		</text>
 	</view>
 	
-	<view name="basic, detailed, video">
+	<view name="basic, detailed, video, grid">
 		<image name="logo">
 			<path>./_inc/system.svg</path>
 			<pos>0.5 0.079</pos>
@@ -45,5 +52,13 @@
 		<text name="system_name_1" extra="true">
 			<text></text>
 		</text>
+		
+		<image name="controller" extra="true">
+			<path>./_inc/controller.svg</path>
+			<pos>0.040 0.080</pos>
+			<maxSize>0.460 0.126</maxSize>
+			<origin>0 0.5</origin>
+			<color>bbbbbb</color>
+		</image>
 	</view>
 </theme>

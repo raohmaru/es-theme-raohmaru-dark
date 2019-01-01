@@ -101,7 +101,7 @@ license:		creative commons CC-BY-NC-SA
 		</view>
 	</feature>
 	
-	<view name="basic, detailed, video">
+	<view name="basic, detailed, video, grid">
 		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
 			<color>d8d8d8</color>
 			<forceUppercase>0</forceUppercase>
@@ -133,6 +133,14 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.020</fontSize>
 			<size>0 0.04</size>
 		</datetime>
+
+		<text name="md_name">
+			<color>FFFFFF</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Changa/Changa-Regular.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>left</alignment>
+		</text>
 		
 		<textlist name="gamelist">
 			<selectorColor>151515</selectorColor>
