@@ -27,7 +27,7 @@ git pull
 This theme is designed for a 16:9 aspect ratio. Currently the theme is not fully compatible with a 4:3 aspect ratio. It has been tested with both 1080p (1920x1080) and 720p (1280x720) resolutions. Other 16:9 resolutions will likely work with no issue due to the scaling that EmulationStation performs.
 
 ### Supported Views
-Basic, Detailed, Grid.
+Basic, Detailed, Grid, Video.
 
 ## License
 Creative Commons. Please see [license.txt](license.txt).
