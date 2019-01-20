@@ -1,0 +1,52 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	
+	<view name="system">	
+		
+		<!-- <image name="chevronUp" extra="true">
+			<path>./../images/chevron-up.svg</path>
+			<size>0.05 0</size>
+			<pos>0.5 0.35</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFFF</color>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="chevronDown" extra="true">
+			<path>./../images/chevron-down.svg</path>
+			<size>0.05 0</size>
+			<pos>0.5 0.65</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFFF</color>
+			<zIndex>100</zIndex>
+		</image> -->
+		
+		<image name="arrowUp" extra="true">
+			<path>./../images/arrow-up.svg</path>
+			<size>0.04 0</size>
+			<pos>0.5 0.35</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFFF</color>
+			<zIndex>100</zIndex>
+		</image>
+		
+		<image name="arrowDown" extra="true">
+			<path>./../images/arrow-down.svg</path>
+			<size>0.04 0</size>
+			<pos>0.5 0.65</pos>
+			<origin>0.5 0.5</origin>
+			<color>FFFFFFFF</color>
+			<zIndex>100</zIndex>
+		</image>
+	
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<type>vertical_wheel</type>
+			<maxLogoCount>5</maxLogoCount>
+			<logoSize>0.35 0.145</logoSize>
+			<logoScale>1</logoScale>
+			<logoRotation>7.5</logoRotation>
+		</carousel>
+		
+	</view>
+</theme>

@@ -23,6 +23,19 @@ cd /etc/emulationstation/themes/es-theme-raohmaru-dark
 git pull
 ```
 
+### Customization
+
+#### System View
+By default, system view has vertical scroll. If you prefer the classic horizontal scroll, open [theme.xml](https://github.com/raohmaru/es-theme-raohmaru-dark/blob/master/theme.xml)
+with a text editor, then uncomment the following line:
+```
+<!-- <include>./_inc/templates/carousel-horizontal.xml</include> -->
+```
+and comment the next line:
+```
+<include>./_inc/templates/carousel-vertical.xml</include>
+```
+
 ## Compatibility
 This theme is designed for a 16:9 aspect ratio. Currently the theme is not fully compatible with a 4:3 aspect ratio. It has been tested with both 1080p (1920x1080) and 720p (1280x720) resolutions. Other 16:9 resolutions will likely work with no issue due to the scaling that EmulationStation performs.
 

@@ -1,0 +1,17 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	
+	<view name="system">
+	
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+			<type>horizontal</type>
+			<maxLogoCount>2</maxLogoCount>
+			<logoSize>0.35 0.145</logoSize>
+			<logoScale>1</logoScale>
+			<pos>-0.20 0.41</pos>
+			<size>1.4 0.18</size>
+		</carousel>
+		
+	</view>
+</theme>
