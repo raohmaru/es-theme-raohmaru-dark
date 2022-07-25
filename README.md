@@ -1,5 +1,5 @@
-# Raoharu Dark Theme for EmulationStation
-A [EmulationStation](https://github.com/Aloshi/EmulationStation) theme optimized for Raspberry Pi.
+# Raohmaru Dark Theme for EmulationStation
+A [EmulationStation](https://github.com/RetroPie/EmulationStation) theme optimized for Raspberry Pi.
 
 Based on the following themes:
 - [Tronkyfan dark optimized](https://github.com/HerbFargus/es-theme-tronkyfran/tree/dark-optimized)
@@ -7,11 +7,11 @@ Based on the following themes:
 
 ## Installation
 1. Close EmulationStation.
-2. Create folder `/etc/emulationstation/themes` if it does not exist.
+2. Create the folder `/etc/emulationstation/themes` if it does not exist.
 3. Run in a terminal:
 ```
 cd /etc/emulationstation/themes
-git clone git@github.com:raohmaru/es-theme-raohmaru-dark.git
+git clone https://github.com/raohmaru/es-theme-raohmaru-dark.git
 ```
 
 **Windows users note:** In Windows OS the location of the themes folder is at `%HOMEPATH%\.emulationstation\themes`.
