@@ -15,7 +15,7 @@
 			<size>0.950 0.68</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0</horizontalMargin>
-			<selectorImagePath>./../images/selectorImage-large.png</selectorImagePath>
+			<selectorImagePath>./../images/gamelist-active-large.png</selectorImagePath>
 		</textlist>
 	</view>
 
@@ -84,7 +84,7 @@
 		</text>
 		
 		<datetime name="md_releasedate">
-			<pos>${gridValuesPosX} 0.25</pos>
+			<pos>${gridValuesPosX} 0.255</pos>
 		</datetime>
 		
 		<text name="md_lbl_developer">
@@ -93,7 +93,7 @@
 		</text>
 		
 		<text name="md_developer">
-			<pos>${gridValuesPosX} 0.29</pos>
+			<pos>${gridValuesPosX} 0.295</pos>
 		</text>
 
 		<text name="md_lbl_publisher">
@@ -102,7 +102,7 @@
 		</text>
 
 		<text name="md_publisher">
-			<pos>${gridValuesPosX} 0.33</pos>
+			<pos>${gridValuesPosX} 0.335</pos>
 		</text>
 		
 		<text name="md_lbl_genre">
@@ -110,7 +110,7 @@
 		</text>
 		
 		<text name="md_genre">
-			<pos>${gridValuesPosX} 0.37</pos>
+			<pos>${gridValuesPosX} 0.375</pos>
 		</text>
 		
 		<text name="md_lbl_players">
@@ -118,7 +118,7 @@
 		</text>
 		
 		<text name="md_players">
-			<pos>${gridValuesPosX} 0.41</pos>
+			<pos>${gridValuesPosX} 0.415</pos>
 		</text>
 
 		<text name="md_lbl_lastplayed">
@@ -126,15 +126,16 @@
 		</text>
 
 		<datetime name="md_lastplayed">
-			<pos>${gridValuesPosX} 0.45</pos>
+			<pos>${gridValuesPosX} 0.455</pos>
 		</datetime>
 
 		<text name="md_lbl_playcount">
+            <text># played:</text>
 			<pos>${gridLabelPosX} 0.49</pos>
 		</text>
 		
 		<text name="md_playcount">
-			<pos>${gridValuesPosX} 0.49</pos>
+			<pos>${gridValuesPosX} 0.495</pos>
 		</text>
 		
 		<text name="md_description">
@@ -149,10 +150,11 @@
 		</text>
 		
 		<rating name="md_rating">
-			<pos>${valuesPosX} 0.115</pos>
-			<size>0.03 0.03</size>
+			<pos>0.76 0.54</pos>
+			<size>0.08 0</size>
 			<filledPath>./../images/star_filled_spacing.svg</filledPath>
 			<unfilledPath>./../images/star_hollow_spacing.svg</unfilledPath>
+            <color>b7b7b7</color>
 		</rating>
 
 		<text name="md_name">
@@ -166,7 +168,7 @@
 		</text>
 		
 		<datetime name="md_releasedate">
-			<pos>${valuesPosX} 0.25</pos>
+			<pos>${valuesPosX} 0.255</pos>
 		</datetime>
 		
 		<text name="md_lbl_developer">
@@ -175,7 +177,7 @@
 		</text>
 		
 		<text name="md_developer">
-			<pos>${valuesPosX} 0.29</pos>
+			<pos>${valuesPosX} 0.295</pos>
 		</text>
 
 		<text name="md_lbl_publisher">
@@ -184,7 +186,7 @@
 		</text>
 
 		<text name="md_publisher">
-			<pos>${valuesPosX} 0.33</pos>
+			<pos>${valuesPosX} 0.335</pos>
 		</text>
 		
 		<text name="md_lbl_genre">
@@ -192,7 +194,7 @@
 		</text>
 		
 		<text name="md_genre">
-			<pos>${valuesPosX} 0.37</pos>
+			<pos>${valuesPosX} 0.375</pos>
 		</text>
 		
 		<text name="md_lbl_players">
@@ -200,7 +202,7 @@
 		</text>
 		
 		<text name="md_players">
-			<pos>${valuesPosX} 0.41</pos>
+			<pos>${valuesPosX} 0.415</pos>
 		</text>
 
 		<text name="md_lbl_lastplayed">
@@ -208,15 +210,16 @@
 		</text>
 
 		<datetime name="md_lastplayed">
-			<pos>${valuesPosX} 0.45</pos>
+			<pos>${valuesPosX} 0.455</pos>
 		</datetime>
 
 		<text name="md_lbl_playcount">
+            <text># played:</text>
 			<pos>${labelsPosX} 0.49</pos>
 		</text>
 		
 		<text name="md_playcount">
-			<pos>${valuesPosX} 0.49</pos>
+			<pos>${valuesPosX} 0.495</pos>
 		</text>
 		
 		<text name="md_description">
@@ -229,7 +232,7 @@
 			<size>0.359 0.70</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.03</horizontalMargin>
-			<selectorImagePath>./../images/selectorImage.png</selectorImagePath>
+			<selectorImagePath>./../images/gamelist-active.png</selectorImagePath>
 		</textlist>
 	</view>
 	
@@ -245,7 +248,7 @@
 			<text>${system.name}</text>
 			<forceUppercase>1</forceUppercase>
 			<size>0.45 0.08</size>
-			<pos>0.527 0.02</pos>
+			<pos>0.527 0.015</pos>
 			<color>7b7d7f</color>
 			<fontSize>0.025</fontSize>
 			<alignment>right</alignment>
@@ -253,10 +256,14 @@
 		
 		<image name="controller" extra="true">
 			<path>./../../${system.name}/_inc/controller.svg</path>
-			<pos>0.08 0.09</pos>
-			<size>0.10 0.09</size>
+			<pos>0.08 0.08</pos>
+			<maxSize>0.10 0.09</maxSize>
 			<origin>0.5 0.5</origin>
 			<color>b7b7b7</color>
 		</image>
-	</view>
+	
+		<helpsystem name="help">
+            <pos>0.012 0.96</pos>
+		</helpsystem>
+    </view>
 </theme>
