@@ -58,11 +58,15 @@ license:		creative commons CC-BY-NC-SA
 		</image>
 		
 		<image name="description" extra="true">
-			<pos>0.642 0.580</pos>
+			<pos>0.642 0.6</pos>
 			<origin>0 0</origin>
-			<size>0.358 0.283</size>
-			<path>./_inc/images/description.png</path>
+			<size>0.35 0.3</size>
+			<path>./_inc/images/description-grid.png</path>
 		</image>
+        
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate, md_lastplayed">
+			<fontSize>0.021</fontSize>
+		</text>
 	</view>
 	
 	<view name="detailed, video">
@@ -86,7 +90,7 @@ license:		creative commons CC-BY-NC-SA
 			<color>d8d8d8</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./_inc/fonts/Exo/Exo-Light.ttf</fontPath>
-			<fontSize>0.020</fontSize>
+			<fontSize>0.0185</fontSize>
 			<size>0.12 0.04</size>
 		</text>
 		
@@ -94,9 +98,17 @@ license:		creative commons CC-BY-NC-SA
 			<color>ebebeb</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./_inc/fonts/Exo/Exo-Medium.ttf</fontPath>
-			<fontSize>0.020</fontSize>
+			<fontSize>0.0185</fontSize>
 			<size>0 0</size>
 		</text>
+		
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>d8d8d8</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/Exo/Exo-Medium.ttf</fontPath>
+			<fontSize>0.0185</fontSize>
+			<size>0 0.04</size>
+		</datetime>
 		
 		<text name="md_description">
 			<color>d8d8d8</color>
@@ -105,14 +117,6 @@ license:		creative commons CC-BY-NC-SA
 			<fontSize>0.020</fontSize>
 			<lineSpacing>1.4</lineSpacing>
 		</text>
-		
-		<datetime name="md_releasedate, md_lastplayed">
-			<color>d8d8d8</color>
-			<forceUppercase>0</forceUppercase>
-			<fontPath>./_inc/fonts/Exo/Exo-Medium.ttf</fontPath>
-			<fontSize>0.020</fontSize>
-			<size>0 0.04</size>
-		</datetime>
 
 		<text name="md_name">
 			<color>FFFFFF</color>
