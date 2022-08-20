@@ -10,7 +10,7 @@
 		</image>
 
 		<image name="logo">
-			<path>./_inc/system-inverted.svg</path>
+			<path>./_inc/system.svg</path>
         </image>
 
 	</view>
