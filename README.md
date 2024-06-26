@@ -1,5 +1,5 @@
 # Raohmaru Dark Theme for EmulationStation
-A [EmulationStation](https://github.com/RetroPie/EmulationStation) theme optimized for the Raspberry Pi.
+A [EmulationStation](https://github.com/RetroPie/EmulationStation) theme optimized for the EmulationStation version of [RetroPie](https://retropie.org.uk/) (Raspberry Pi).
 
 ![Screenshot of Raohmaru Dark Theme for EmulationStation](theme.jpg)
 
